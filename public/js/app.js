@@ -1,6 +1,6 @@
 angular.module("keep", ['ngMaterial'])
 	.config(function($mdThemingProvider) {
 		$mdThemingProvider.theme('default')
-			.primaryPalette('yellow')
+			.primaryPalette('blue-grey')
 			.accentPalette('orange');
 });
