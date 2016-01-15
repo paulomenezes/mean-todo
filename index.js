@@ -1,6 +1,10 @@
 // Depedências
 var express = require('express');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+
+// Banco de Dados
+mongoose.connect('mongodb://localhost/keep');
 
 // Inicializa o Express
 var app = express();
